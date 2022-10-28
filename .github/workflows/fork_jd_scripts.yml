@@ -61,3 +61,4 @@ jobs:
           source_branch: "main"
           destination_branch: "OpenCard"
           github_token: ${{ secrets.PAT }}
+
