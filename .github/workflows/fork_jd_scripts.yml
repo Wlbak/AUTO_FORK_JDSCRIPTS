@@ -25,16 +25,6 @@ jobs:
           source_branch: "main"
           destination_branch: "kedaya"
           github_token: ${{ secrets.PAT }}
-/*
-      - name: sync walle1798-WALL.E
-        uses: repo-sync/github-sync@v2
-        if: env.PAT
-        with:
-          source_repo: "https://github.com/walle1798/WALL.E.git"
-          source_branch: "master"
-          destination_branch: "WALL.E"
-          github_token: ${{ secrets.PAT }}
-*/
       - name: sync msechen-jdv5
         uses: repo-sync/github-sync@v2
         if: env.PAT
