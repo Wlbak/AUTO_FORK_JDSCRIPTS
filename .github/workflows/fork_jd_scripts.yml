@@ -43,12 +43,12 @@ jobs:
           destination_branch: "jdrain"
           github_token: ${{ secrets.PAT }}
 
-      - name: sync KingRan-KR
-        uses: repo-sync/github-sync@v2
-        if: env.PAT
-        with:
-          source_repo: "https://github.com/KingRan/KR.git"
-          source_branch: "main"
-          destination_branch: "OpenCard"
-          github_token: ${{ secrets.PAT }}
+#       - name: sync KingRan-KR
+#         uses: repo-sync/github-sync@v2
+#         if: env.PAT
+#         with:
+#           source_repo: "https://github.com/KingRan/KR.git"
+#           source_branch: "main"
+#           destination_branch: "OpenCard"
+#           github_token: ${{ secrets.PAT }}
 
